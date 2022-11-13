@@ -1,0 +1,148 @@
+
+
+
+.page-title{
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.head{
+	background-color: #60a5fa;
+	padding: 1px 0;
+	font-family: calibri;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+body{
+	width: 95%;
+	margin: 5px auto;
+	/* background-color: #60a5fa; */
+}
+
+.search-bar{
+	padding: 10px 0;
+	background-color: #60a5fa;
+	display: flex;
+	justify-content: center;
+}
+
+.w-input{
+	font-family: calibri;
+	width: 170px;
+	border: 1px solid grey;
+	/* border-radius: 10px; */
+	font-weight: bold;
+	padding: 5px;
+	text-align: center;
+	font-size: 1.03em;
+}
+
+.w-input:focus{
+	outline: none;
+}
+
+.w-img{
+	width: 30px;
+	height: 30px;
+}
+
+
+.w-btn{
+	font-family: calibri;
+	font-weight: bold;
+	background-color: #1d4ed8;
+	color: white;
+	padding: 7.5px 20px;
+	border: 0;
+	border-radius: 5px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.w-btn:hover{
+	transition: 300ms opacity ease;
+	opacity: 0.8;
+}
+
+.w-btn:active{
+	box-shadow: 1px 1px 1px blue;
+}
+
+.w-form{
+	display: flex;
+	align-items: center;
+	gap: 0px;
+}
+
+.w-container{
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 270px;
+	height: 400px;
+	background-color: #60a5fa;
+	padding: 2px 5px;
+	border-radius: 8px;
+	box-shadow: 3px 3px 3px rgb(184, 184, 249);
+}
+
+
+
+.w-title{
+	color: white;
+	font-family: calibri;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.8em;
+}
+
+.w-im{
+	display: block;
+	width: 120px;
+	height: 120px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #bfdbfe;
+	box-shadow: 2px 2px 2px gray;
+	border-radius: 6px;
+	padding: 10px;
+}
+
+.w-temp{
+	color: white;
+	font-family: calibri;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.6em;
+}
+
+.w-first,.w-sec,.err,.end{
+	color: white;
+	font-family: calibri;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1em;
+}
+
+.err{
+	color: green;
+	font-size: 1.2em;
+}
+
+
+
+footer{
+	padding: 5px 0;
+	background-color: #60a5fa;
+	
+}
+
+.end{
+	margin-top: 50px;
+	font-style: italic;
+	text-decoration: underline;
+	color: black;
+}
